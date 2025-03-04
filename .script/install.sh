@@ -6,7 +6,11 @@ VERSION=${VERSION:-0.0.1}
 # Detect OS and architecture
 OS=$(uname -s | tr '[:upper:]' '[:lower:]')
 ARCH=$(uname -m)
+OS_INFO=$(uname -sm)
+echo "您的系统信息: $OS_INFO"
 
+# 查看检测到的架构
+echo "脚本检测到的架构: $OS-$ARCH"
 # Convert architecture naming
 if [ "$ARCH" = "x86_64" ]; then
     ARCH="amd64"
