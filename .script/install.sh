@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Use environment variable VERSION if set, otherwise use default
-VERSION=${VERSION:-v0.0.1}
+VERSION=${VERSION:-0.0.1}
 
 # Detect OS and architecture
 OS=$(uname -s | tr '[:upper:]' '[:lower:]')
