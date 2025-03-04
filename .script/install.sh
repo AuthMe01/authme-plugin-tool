@@ -25,7 +25,7 @@ fi
 
 # Define download URL and binary name
 BINARY_NAME="authme-plugin-$OS-$ARCH"
-DOWNLOAD_URL="https://github.com/AuthMe01/authme-plugin-tool/releases/download/$VERSION/$BINARY_NAME"
+DOWNLOAD_URL="https://github.com/AuthMe01/authme-plugin-tool/releases/download/0.0.1/authme-plugin-linux-amd64"
 
 # Set installation directory based on OS
 if [ "$OS" = "darwin" ]; then
